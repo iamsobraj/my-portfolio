@@ -5,6 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+.header-color{
+    font-size: 40px;
+    color:orange;
+}
+h2{
+    font-size: 45px;
+}
+p{
+    color:dimgray;
+}
 .takeservice{
     color:orange;
 }
@@ -13,10 +23,14 @@ h1{
     float:left;
     margin-left: 5%;
     padding-left: 2%;
+    text-align: justify;
 }
 .half-width img{
-    width:80%;
-    margin-left: 20%;
+    width:100%;
+    
+}
+div p{
+    padding-bottom: 20px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -24,4 +38,65 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+    background-image: linear-gradient(45deg,lightblue, darkblue);
+    border-radius: 7px;
+    padding: 15px 25px;
+    
+}
+.image-right{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.course-link{
+    text-decoration: none;
+    color: lightblue;
+    
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h3{
+    color: cornflowerblue;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+.experiencebox-shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato) ;
+    border-image-slice: 1;
+
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice:1;
+    
+}
+.padding-p{
+    padding-right: 30px;
+}
+footer p {
+    text-align: center;
+    font-size: 12px;
 }
